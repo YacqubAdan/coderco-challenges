@@ -8,8 +8,8 @@ ExecStart=/usr/bin/python3 /opt/coderco-app/server.py
 Restart=on-failure
 RestartSec=5
 EnvironmentFile=/opt/coderco-app/.env
-StandardOutput=journal
-StandardError=journal
+StandardOutput=append:/var/log/coderco-app.log
+StandardError=append:/var/log/coderco-app.log
 WorkingDirectory=/opt/coderco-app/
 Type=simple
 
