@@ -33,10 +33,6 @@ challenge1/
 │   └── healthcheck.sh
 └── Makefile
 ```
-
-
-Here's a **"Local Setup"** section you can add to your `README.md`:
-
 ---
 
 ## Local Setup
