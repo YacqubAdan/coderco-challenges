@@ -53,8 +53,8 @@ Follow these steps to set up and run the project locally using [Multipass](https
 **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/YacqubAdan/coderco-challenges.git
+   cd challenge1
    ```
 ---
 
