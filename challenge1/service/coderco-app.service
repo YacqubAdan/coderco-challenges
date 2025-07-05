@@ -1,0 +1,17 @@
+[Unit]
+Description=CoderCo App Service
+After=network.target
+
+[Service]
+User=appuser
+ExecStart=/usr/bin/python3 /opt/coderco-app/server.py
+Restart=on-failure
+RestartSec=5
+EnvironmentFile=/opt/coderco-app/.env
+StandardOutput=journal
+StandardError=journal
+WorkingDirectory=/opt/coderco-app/
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
